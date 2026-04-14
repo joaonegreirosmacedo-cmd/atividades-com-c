@@ -1,0 +1,14 @@
+
+
+int main()
+{
+  int a, b, soma;
+   printf ("digite um numero para fazer sua soma");
+   scanf ("%i", &b);
+     printf ("digite um numero para fazer sua soma");
+   scanf ("%i", &a);
+   soma = a+b;
+   printf("a soma e %i", soma);
+
+    return 0;
+}
