@@ -1,0 +1,41 @@
+int main() {
+    // 01. Vetor de temperaturas (tamanho 4)
+    int temperaturas[4] = {25, 30, 15, 22};
+
+    // 02. Vetor de preços (tamanho 6)
+    float precos[6] = {1.99, 5.50, 10.0, 12.45, 0.75, 8.90};
+
+    // 03. Vetor de iniciais (tamanho 3)
+    char iniciais[3] = {'A', 'B', 'C'};
+
+    // 04. Vetor de bits binários (tamanho 8)
+    int binarios[8] = {0, 1, 1, 0, 1, 0, 0, 1};
+
+    // 05. Vetor de medidas precisas (tamanho 2)
+    double medidas[2] = {1.7543, 2.1092};
+
+    // 06. Vetor de estoque (tamanho 10)
+    int estoque[10] = {100, 0, 50, 20, 30, 10, 5, 80, 12, 45};
+
+    // 07. Vetor zerado (tamanho 5) - Todos os elementos iniciam com 0
+    int contador[5] = {0};
+
+    // 08. Vetor de ranking (tamanho 15) - Apenas os 3 primeiros definidos
+    int ranking[15] = {1, 2, 3};
+
+    // 09. Vetor de IDs (tamanho 12)
+    int id_usuarios[12] = {101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112};
+
+    // 10. Vetor de lotação de salas (tamanho 20)
+    int lotacao_salas[20] = {30, 30, 25, 40, 15, 10, 20, 30, 35, 40, 45, 50, 10, 5, 8, 12, 18, 22, 28, 30};
+
+    // --- Exibindo alguns valores para teste ---
+    printf("Exemplos de acesso aos vetores:\n");
+    printf("Temperatura na posicao 0: %d\n", temperaturas[0]);
+    printf("Preco na posicao 3: %.2f\n", precos[3]);
+    printf("Inicial na posicao 2: %c\n", iniciais[2]);
+    printf("Estoque na ultima posicao (9): %d\n", estoque[9]);
+    printf("Lotacao da sala 15: %d\n", lotacao_salas[14]);
+
+    return 0;
+}
